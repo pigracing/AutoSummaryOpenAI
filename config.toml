@@ -1,0 +1,17 @@
+[AutoSummaryOpenAI]
+enable = true
+
+[AutoSummaryOpenAI.OpenAI]
+enable = true
+api-key = "skgxxx-xxx"  # 请替换为实际的 API Key
+model = "gpt-4o" # 请替换为实际的model
+base-url = "https://api.openai.com/v1"  # 请替换为实际的 API URL
+http-proxy = ""  # 如果需要代理可以在这里设置
+
+[AutoSummaryOpenAI.Settings]
+max_text_length = 8000  # 最大文本长度
+black_list = [  # 黑名单URL
+    "https://support.weixin.qq.com",
+    "https://channels-aladin.wxqcloud.qq.com"
+]
+white_list = []  # 白名单URL，为空则允许所有非黑名单URL
