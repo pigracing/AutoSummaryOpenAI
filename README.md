@@ -1,0 +1,2 @@
+# AutoSummaryOpenAI
+基于xxxbot-pad上面的分享链接自动总结插件，支持OpenAI兼容接口，与AutoSummary插件的用法保持一致
